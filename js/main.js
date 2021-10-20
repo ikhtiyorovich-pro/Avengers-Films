@@ -2,7 +2,7 @@
 const elLoader = document.querySelector(".js-loader")
 const elFilmsList = document.querySelector(".js-films-list");
 
-fetch("http://www.omdbapi.com/?apikey=9fcd4d84&s=Avengers")
+fetch("https://www.omdbapi.com/?apikey=9fcd4d84&s=Avengers")
   .then(response => response.json())
   .then(data => {
     console.log(data);
