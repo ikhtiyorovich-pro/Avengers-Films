@@ -1,0 +1,46 @@
+.films-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.list{
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 30px;
+    border: 3px solid black;
+}
+.list:hover{
+ transform: scale(1.1);
+ transition: 1s all;
+}
+
+.big-heading{
+    width: 100%;
+    max-width: 318px;
+    margin: 20px auto;
+    text-decoration: underline;
+}
+
+.images{
+    object-fit: cover;
+    width: 100%;
+    max-width: 300px;
+    height: 470px;
+}
+
+
+.loading{
+    font-size: 50px;
+    width: 100%;
+    max-width: 207px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
