@@ -42,17 +42,17 @@
 setInterval(() => {
   setInterval(() => {
     document.body.style.backgroundColor = "red"
-  }, 500);
-
-  setInterval(() => {
-    document.body.style.backgroundColor = "blue"
   }, 1000);
 
   setInterval(() => {
+    document.body.style.backgroundColor = "blue"
+  }, 2000);
+
+  setInterval(() => {
     document.body.style.backgroundColor = "green"
-  }, 1500);
+  }, 3000);
 
   setInterval(() => {
     document.body.style.backgroundColor = "yellow"
-  }, 2000);
-}, 0);
+  }, 4000);
+}, 50);
