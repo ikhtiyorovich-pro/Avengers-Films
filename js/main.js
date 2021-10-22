@@ -47,4 +47,12 @@ setInterval(() => {
   setInterval(() => {
     document.body.style.backgroundColor = "blue"
   }, 1000);
+
+  setInterval(() => {
+    document.body.style.backgroundColor = "green"
+  }, 1500);
+
+  setInterval(() => {
+    document.body.style.backgroundColor = "yellow"
+  }, 2000);
 }, 0);
